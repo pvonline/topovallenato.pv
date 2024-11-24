@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box ;  
+  }
+  
+  body{
+     background-color: #c8a58d;
+     font-family: Arial, Helvetica, sans-serif;
+     
+  }
+  
+
+  .container {
+    position: absolute;
+    margin: 10px;
+    padding: 5px auto 0;
+    right: 8px;
+    width: 96%;
+    height: 0 0px;
+    }
+
+    /*!------Inicio  Footer ----------->*/
+  
+  .footer {
+    background-color: hwb(41 7% 8% / 0.6);
+    margin-top: 1%;
+    width: 100%;
+    padding: 0px 0px;
+    position: relative;
+    }
+  
+  .footer_p {
+    color: #000;
+    text-align: center;
+    }
+  
+  .footer_p2 {
+    color: #000;
+    text-align: center;
+  }
+  /*!------ Final  Footer ----------->*/

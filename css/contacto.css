@@ -1,0 +1,212 @@
+
+*{
+  margin: 0px;
+  padding: 0px;    
+  box-sizing: border-box ;  
+}
+
+body{
+   background-color: rgb(233, 114, 30);
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*!------------  INICIO  PARRAFO MARQUEE Y PARRAFO ----------------------->*/
+.parrafo1 marquee{
+  font-size: 20px;
+  font-style: italic;
+  text-align: justify;
+  
+-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo2 marquee{
+  font-size: 20px;
+  font-style: italic;
+  text-align: justify;
+
+-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo3 marquee{
+  font-size: 20px;
+  font-style: italic;
+  text-align: justify;
+
+-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo1{
+  font-size: 20px;
+  font-style: italic;
+  text-align: justify;
+
+-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo2{
+  font-size: 20px;
+  font-style: italic;
+  text-align: justify;
+
+-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo3{
+  font-size: 20px;
+  font-style: italic;
+  text-align: justify;
+
+-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+/*!----------- FINAL PARRAFO MARQUEE Y PARRAFO----------------------->*/
+
+
+
+
+/** Url fonts **/
+.container-dos {
+  width: 100%;
+  max-width: 1100px;
+  overflow: hidden;
+  margin: auto;
+  padding: 2.5px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+/** Url fonts **/
+
+
+
+
+/*!----- Inicio forulario contacto ----->*/
+
+.form{
+  width: 500px;
+  padding: 5px 10%;;
+}
+
+.controls{
+  width: 500px;
+  padding: 6px 6px;;
+  border: 2px solid #f809d4;;
+  outline: none;;
+  color: #102934;;
+  border-radius: 6px;
+}
+
+.controls::placeholder p{
+  flex-wrap: nowrap;
+  color: #090707;;
+}
+
+.btn-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 25px;;
+  border-radius: 8px;
+  border: 2px solid #f809d4;;
+  background-color: #060606;;
+  color: #eff3d3;;
+}
+/*!---- Final forulario contacto ----->*/
+
+
+
+
+/*!------ Inicio mapa ------->*/
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:50%;
+  position:relative;
+  height:0;
+  height:100%;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+/*!------ Final mapa ------->*/
+
+
+
+
+/*!------ Inicio hacia arriba footer scrool button -------->*/
+
+.lierlis {
+  scroll-behavior: smooth;
+}
+
+.btn-scrolltop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 15px 20px;
+  background: #030200;
+  color: white;
+  border: 1px solid white;
+  border-radius: 100%;
+  cursor: pointer;
+  z-index: 1;
+  transform: translateY(100px);
+  transition: 0.3s;
+}
+
+.btn-scrolltop-on {
+  transform: translateY(0);
+}
+/*!------ Final arriba footer scrool button ------->*/
+
+
+hr {
+  width: 100%;
+}
+
+
+
+/*!----INICIO  FOOTER!----->*/
+
+.footer {
+  margin-top: 1%;
+  width: 100%;
+  padding: 0px 0px;
+  position: relative;
+  }
+
+.footer_p{
+  color: #000;
+  text-align: center;
+  }
+
+.footer_p2{
+  color: #000;
+  text-align: center;
+}
+/*!--------- FINAL  FOOTER --------------->*/
+
+
+
+.form-register{
+  margin: 20px auto;
+  position: relative;
+  border-radius: 35px 35px;
+}

@@ -1,0 +1,888 @@
+ /* ====== INICIO TRICICLO ======= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+ *
+
+ /*!-----  inicio logo rotate derecha izquierda---- ok -->*/
+.container-lg{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    left: 2%;
+    top: 70px;
+    z-index: 3;
+}
+.logo{
+    width: 120px;
+    height: 110px;
+    background: url(../image/palac11.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    filter: drop-shadow(0px 6px 4px rgb(12, 12, 18));
+    animation: rotar 15s linear infinite;
+}
+.logomo:hover{
+    cursor: pointer;
+}
+@keyframes rotar{
+    from{
+    transform: rotateY(180deg);
+    }
+    to{
+    transform: rotateY(-180deg);
+    }
+}
+/*!--- final logo rotate derecha izquierda ----->*/
+
+
+
+/* ====== INICIO TRICICLO 24/09/2024 ======== */
+.slider-wrapper{
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
+
+.card-list .card-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    user-select: none;
+    margin-top: 70px;
+    margin-right: 20px;
+
+    padding: 35px;
+    border-radius: 8px;
+    background: rgba(255,255,255, 0.2);
+    border:1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(30px);
+}
+/*!---------   01 ok ----->*/
+.card-lists .card-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    user-select: none;
+    margin-top: 70px;
+    margin-right: 20px;
+
+    padding: 35px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    border:1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+}
+/*!---------   01 ok ---->*/
+
+
+/*!-----ok 02/11/2024 ---->*/
+.card-lists .card-item .user-image {
+    width: 190px;
+    height: 140px;
+    border-radius: 0%;
+    margin-bottom: 40px;
+    border: 3px solid #ffffff;    ;;;;;; /*! ;; RECTANGULO ;;;;;;;->*/
+    padding: 4px;
+}
+/*!-----ok  02/11/2024---->*/
+
+
+.card-list .card-item .user-profession{
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+}
+/*!---------   01 ok 24/09/2024 ---->*/
+.card-lists .card-item .user-profession {
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+}
+/*!---------   01 ok 02/11/2024 ---->*/
+.card-list .card-item .message-button{
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #030728;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+}
+.card-lists .card-item .message-button {
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #ffffff;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: rgb(32, 89, 104);
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+}
+/*!---------   01 ok 02/11/2024 ---->*/
+
+
+/*!--------- inicio buttom hover ------->*/
+.card-list .card-item .message-button:hover{
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.card-lists .card-item .message-button:hover{
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    border: 1px solid #fff;
+}
+/*!---------  final buttom hover ------->*/
+
+.slider-wrapper .swiper-pagination-bullet{
+    background: #fff;
+    height: 15px;
+    width: 15px;
+}
+
+.slider-wrapper .swiper-slider-button{
+    color: #fff;
+    margin-top: -22px;
+    transition: 0.2s ease;
+}
+
+.slider-wrapper .swiper-slider-button:hover{
+    color: #4658ff;
+}
+@media (max-widht:768px){
+    .slider-wrapper{
+        margin: 0 10px 40px;
+}
+
+    .slider-wrapper .swiper-slider-button{
+        display: none;
+    }
+}
+/* ====== FINAL TRICICLO 02/11/2024 ======== */
+
+
+
+/*---inicio  new ayudanos-videos youtube-artistas 24/09/2024 ---*/
+.all-products {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.product {
+	overflow: hidden;
+	background: #ffffff;
+	color: #21201e;
+	text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    border:1px solid rgba(255, 255, 255, 0.5);
+	width: 280px;
+	height: 410px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.0rem;
+	margin: 1rem;
+}
+.product1 {
+	overflow: hidden;
+	background: #ffffff;
+	color: #21201e;
+	text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 7px 18px #eeeeee;;
+
+	width: 260px;
+	height: 350px;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.0rem;
+	margin: 1rem;
+}
+.product .product-title, .product .product-price {
+	font-size: 18px;
+}
+.message-button {
+    width: 100%;
+    height: 25px;
+    box-shadow: 5px 15px 25px #dad9d9;
+    transition: all 0.3s;
+}
+.product:hover img {
+	scale:  1.1;
+}
+.product:hover {
+	box-shadow: 5px 15px 25px #eeeeee;
+}
+.product img {
+	height: 200px;
+	margin: 1rem;
+	transition: all 0.3s;
+}
+.product a:link, .product a:visited {
+	color: #ececec;
+	display: inline-block;
+	text-decoration: none;
+	background-color: hsl(189, 48%, 46%);
+	padding: 1.0rem 1rem;
+	border-radius: 1rem;
+	margin-top: 1rem;
+	font-size: 15px;
+	transition: all 0.2s;
+}
+.product a:hover{
+	transform: scale(1.1);
+}
+/*--- final new ayudanos-videos youtube-artistas ---*/
+
+
+/*!------ inicio: tape zeno 24/09/2024 ----->*/
+.casuales img{
+    position: fixed;
+    display: inline-block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 46px;
+    width: 190px;
+    left: 1%;
+    top: 6%; 
+    z-index: 1;
+}
+/*!------Final: tape zeno 24/09/2024 ---->*/
+
+
+/*!--- inicio somos el PV con negrilla -->*/
+.wrapper99 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(1px, 12px);
+}
+
+.wrapper99 p{
+    position: absolute;
+    font-size: 77px;
+    color: hsl(90deg, rgb(19, 227, 255), rgb(251, 255, 20), rgb(255, 15, 15));
+    line-height: 70px;
+    text-transform: uppercase;
+    text-shadow: -3px 2px 5px rgba(0,0,0,0.8), 3px -1px 0 rgba(255,255,255,1.9);
+}
+/*!---- final somos el PV  con negrilla -->*/
+
+
+
+/*!---- inicio instrumentos 02/11/2024 - -->*/
+.slider55{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: linear-gradient();
+}
+.wrapper55{
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+}
+.imag-area{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition:all 1s ease-in-out;
+    animation: animateB 10s infinite;
+}
+.imag-area img {
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+.imag-area img:nth-child(1){
+    transform: rotateY(0) translateX(100px);
+}
+.imag-area img:nth-child(2){
+    transform: rotateY(90deg) translateX(100px);
+}
+.imag-area img:nth-child(3){
+    transform: rotateY(-90deg) translateX(100px);
+}
+.imag-area img:nth-child(4){
+    transform: rotateY(180deg) translateX(100px);
+}
+@keyframes animateB {
+    0%{
+        transform: rotateY(0);
+    }
+    0%{
+        transform: rotateY(0);
+    }
+    25%{
+        transform: rotateY(90deg);
+    }
+    50%{
+        transform: rotateY(180deg);
+    }
+    75%{
+        transform: rotateY(270deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+/*!--------  final instrumentos 02/11/2024 ---->*/
+
+
+
+/*----------- inicio -----------*/
+.contagioso {
+    position: relative;
+    display: center;
+    justify-content: center;
+    align-items: center;
+}
+.contagioso a {
+    width: 35%;
+    height: 150px;
+}
+/*----------- final ------------*/
+
+/*----------- inicio artistas girando PV -----------*/
+.box57 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    animation: animateP 35s linear infinite;
+}
+
+@keyframes animateP 
+{
+    0% 
+    {
+        rotete: 0deg;
+    }
+    100% 
+    {
+        rotate: 360deg;
+    }
+}
+
+.contagioso:hover .box57
+{
+    animation-play-state: paused;
+}
+
+.contagioso img {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 22%;
+    left: 41.1%;
+    z-index: 100;
+}
+
+.img {
+    position: relative;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.img .imgBx {
+    position: fixed;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #fff;
+    transform: rotate(calc(360deg/14 * var(--i)));
+    transform-origin: 198px;
+}
+.img .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    transform: rotate(calc(-360deg/14 * var(--i)));
+    animation: animateImg8x 35s linear infinite; 
+}
+
+.contagioso:hover .img .imgBx img{
+    animation-play-state: paused;
+}
+
+@keyframes animateImg8x 
+{
+    0% 
+    {
+        rotate: 0deg;
+    }
+    100% 
+    {
+        rotate: -360deg;
+    }
+}
+/*----- final artistas girando PV -------*/
+
+
+
+/*----- Inicio Reproductor webSim.AI -------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.player-container {
+    width: 100%;
+    height: auto;
+    min-height: 90px;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0; /* Changed from top: 2px to bottom: 0 */
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.station-info {
+    margin-right: 20px;
+    min-width: 200px;
+}
+
+.station-name {
+    font-family: "Lucida Handwriting", cursive;
+    color: white;
+    font-size: clamp(18px, 4vw, 24px);
+    font-weight: bold;
+}
+
+.station-tagline {
+    color: #ddd;
+    font-size: clamp(12px, 3vw, 14px);
+}
+
+.play-button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #1877f2; /* Changed to blue */
+    border: 2px solid white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    transition: all 0.3s;
+    flex-shrink: 0;
+    box-shadow: 6px 6px 12px rgba(0,0,0,0.5),
+                -6px -6px 12px rgba(255,255,255,0.1);
+}
+
+.play-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.6),
+                -4px -4px 8px rgba(255,255,255,0.2);
+}
+
+.play-button:active {
+    transform: translateY(1px);
+    box-shadow: inset 4px 4px 8px rgba(0,0,0,0.5),
+                inset -4px -4px 8px rgba(255,255,255,0.1);
+}
+
+.play-icon {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 0 8px 12px;
+    border-color: transparent transparent transparent white;
+    margin-left: 3px;
+}
+
+.pause-icon {
+    width: 12px;
+    height: 12px;
+    background: white;
+}
+
+.volume-container {
+    width: clamp(100px, 20vw, 150px);
+    margin-right: 20px;
+}
+
+.volume-slider {
+    width: 100%;
+    height: 8px;
+    -webkit-appearance: none;
+    background: #444;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+.volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #0066ff;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.visualizer {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex-shrink: 0;
+}
+
+.bar {
+    width: 4px;
+    height: 45px; /* Updated height */
+    background: linear-gradient(
+        yellow 0%, 
+        yellow 33%, 
+        blue 33%, 
+        blue 66%, 
+        red 66%, 
+        red 100%
+    );
+    animation: wave 1s ease-in-out infinite;
+    border-radius: 2px;
+    transition: transform 0.1s ease;
+}
+
+@keyframes wave {
+    0%, 100% { 
+        transform: scaleY(0.3); 
+    }
+    50% { 
+        transform: scaleY(1); 
+    }
+}
+
+.social-buttons {
+    display: flex;
+    gap: 15px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+
+.social-btn {
+    width: 35px; /* Updated width */
+    height: 35px; /* Updated height */
+    background: #1877f2; /* Facebook blue as default */
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    box-shadow: 6px 6px 12px rgba(0,0,0,0.5),
+                -6px -6px 12px rgba(255,255,255,0.1);
+    transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.6),
+                -4px -4px 8px rgba(255,255,255,0.2);
+}
+
+.social-btn:active {
+    transform: translateY(1px);
+    box-shadow: inset 4px 4px 8px rgba(0,0,0,0.5),
+                inset -4px -4px 8px rgba(255,255,255,0.1);
+}
+
+.social-btn i {
+    font-size: 20px;
+}
+
+/* All three buttons now have the same blue background */
+.social-btn.facebook,
+.social-btn.twitter,
+.social-btn.instagram {
+    background: #1877f2;
+}
+
+.location-info {
+    color: white;
+    text-align: right;
+}
+
+.flag {
+    width: 20px;
+    height: 15px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+    .player-container {
+        padding: 10px;
+        gap: 10px;
+    }
+    
+    .logo {
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+
+    .station-info {
+        margin-right: 10px;
+        min-width: 150px;
+    }
+
+    .volume-container {
+        width: 100px;
+    }
+
+    .visualizer {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .player-container {
+        height: auto;
+        padding: 15px;
+    }
+
+    .station-info, .volume-container, .social-buttons, .location-info {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .social-buttons {
+        justify-content: center;
+    }
+
+    .location-info {
+        text-align: center;
+    }
+}
+/*----- final Reproductor webSim.AI -------*/
+
+
+
+/*------- nuestro equipazo ----------*/
+
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.hero .todo{
+  position: relative;
+  max-width: 1200px;
+  width: 90%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.hero .right{
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.left h2{
+  font-size: 28px;
+  font-weight: Arial;
+  color: #dcf309;
+}
+
+.left h4{
+  font-size: 18px;
+  font-weight: bold;
+  color:#e9e0e0;
+}
+/*-------*
+.right h1{
+  font-size: 38px;
+  font-weight: Lucida;
+}
+/*-------*/
+
+.left p{
+width: 45%;
+font-size: 18px;
+font-weight: lucida;
+background: #d4ae03;
+}
+
+.details {
+  background: #000;
+}
+
+.right  .buttton88{
+  margin-top: 20px;
+}
+
+.left .buttton88 .h-btn{
+  width: 130px;
+  height: 45px;
+  padding: 10px;
+  background-color:transparent;
+  border: 1.5px solid white;
+  outline: none;
+  font-size: 18px;
+  font-weight: lucida;
+  box-shadow: 0 0 12px white;
+  color: #fff;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.h-btn:hover{
+  scale: 1.1;
+  border-radius: 20px;
+}
+
+.hero .left{
+  margin-right: 30px;
+  margin-top: 80px;
+}
+
+.hero .left li{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 22px  white;
+  border-radius: 50%;
+  margin:20px;
+  cursor: pointer;
+  transition: .4s;
+  /* border: .3px solid  blue; */
+}
+
+.hero .left li a{
+  color: #fff;
+  font-size: 23px;
+}
+
+.hero .left li:hover{
+  scale: 1.1;
+  box-shadow:  0 22px 30px blue;
+  border: .5px solid white;
+}
+
+/* Responsive Styling */
+
+@media (max-width:1110px){
+  .navbar{
+      margin-left: 400px;
+  }
+
+  .hero .right{
+      margin-top: 55px;
+  }
+}
+/* Expriement for responsive website */
+
+.icon39{
+  display: none;
+}
+
+.icon39 li a{
+   color: #fff;
+   font-size: 30px;
+   cursor: pointer;
+}
+
+
+@media (max-width:460px){
+  .navbar{
+      display: none;
+  }
+
+  .hero{
+      display: block;
+      text-align: center;
+  }
+   
+  .hero .right p{
+      width: 100%;
+  }
+
+  .hero .left .social-media13{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* gap: 30px; */
+     margin-left: 0;
+     margin-right: 0;
+     margin-bottom: 0;
+  }
+
+  .button88{
+      display: none;
+  }
+
+  .icon39{
+      display: block;
+  }
+}
+/*----------------- nuestro equipazo -------------------*/

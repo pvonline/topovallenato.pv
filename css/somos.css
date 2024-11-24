@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box ;  
+  }
+  
+  body{
+    background-image: url(../images/38-fondoyu.jpg);;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+   
+  
+/*!------------  INICIO  PARRAFO MARQUEE Y PARRAFO ----------------------->*/
+.parrafo1 marquee{
+  font-size: 20px;
+  font-style: italic;
+  text-align: justify;
+  
+-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo2 marquee{
+  font-size: 20px;
+  font-style: italic;
+  text-align: justify;
+
+-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo3 marquee{
+  font-size: 20px;
+  font-style: italic;
+  text-align: justify;
+
+-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo1{
+  font-size: 20px;
+  font-style: italic;
+  text-align: justify;
+
+-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo2{
+  font-size: 20px;
+  font-style: italic;
+  text-align: justify;
+
+-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo3{
+  font-size: 20px;
+  font-style: italic;
+  text-align: justify;
+
+-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+/*!----------- FINAL PARRAFO MARQUEE Y PARRAFO----------------------->*/
+
+
+
+  /** Url fonts **/
+  .container-dos {
+    width: 100%;
+    max-width: 1100px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 2.5px 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /** Url fonts **/
+  
+  
+    
+  
+  /*!--------- INICIO direccionales hacia abajo--------->*/
+  
+  .pimienta {
+    text-align: center;
+  }
+  
+  .pimienta a {
+  padding: 7px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  }
+  
+  header a:hover {
+    color: rgb(72, 10, 243);
+  }
+  /*!--------- FINAL direccionales --------->*/
+  
+  
+  /*!------ Inicio hacia arriba -------->*/
+  
+  .lierlis {
+    scroll-behavior: smooth;
+  }
+  
+  .btn-scrolltop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    background: #030200;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 1;
+    transform: translateY(100px);
+    transition: 0.3s;
+  }
+  
+  .btn-scrolltop-on {
+    transform: translateY(0);
+  }
+  
+  /*!------- Final hacia arriba  ------->*/
+  
+  
+  /*!----INICIO  FOOTER!----->*/
+  
+  .footer {
+    background-color: hwb(41 7% 8% / 0.6);
+    margin-top: 1%;
+    width: 100%;
+    padding: 0px 0px;
+    position: relative;
+    }
+  
+  .footer_p{
+    color: #000;
+    text-align: center;
+    }
+  
+  .footer_p2{
+    color: #000;
+    text-align: center;
+  }
+  /*!--------- FINAL  FOOTER --------------->*/

@@ -1,0 +1,1110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;1,400&display=swap');
+
+*{
+    margin: 0px;;
+    padding: 0px;;
+    box-sizing: border-box;;
+    text-decoration: none;;
+    list-style: none;;
+}
+
+.body {
+    font-family: 'Poppins', sans-serif;;  
+}
+
+/*!--------->*/
+.real span {
+    color: yellow;
+}
+/*!-------->*/
+
+
+/*!--------->*/
+.sabor {
+    margin-left: 1%;
+}
+/*!--------->*/
+
+
+/* ====  Inicio me gusta facebbok ===== ok === */
+.fb-page{
+    width: 200px;
+    height: 120px;
+}
+/* ====  Final me gusta facebbok ==== ok ==== */
+
+
+.container{
+    max-width: 1200px;;
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;;
+}
+
+/*!---- Inicio video Fondo de pantalla  ------>*/
+video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+/*!---- Final video Fondo de pantalla  ----->*/
+
+
+/*!----- inicio parrafo p1----->*/
+.p1{
+    justify-content: right;
+    align-items: right;
+}
+/*!---- final parrafo p1----->*/
+
+
+.general{
+    padding: 50px 0;;
+    text-align: center;;
+}
+
+.general-content{
+    display: flex;;
+    justify-content: space-between;;
+    margin-top: 55px;;
+}
+/*!--------------------------------------------->*/
+
+
+h2{
+    font-size: 70px;;
+    text-transform: uppercase;;
+    color: #18293A;;
+}
+
+.txt h3{
+    font-size: 18px;;
+    color: #fff;;
+    text-transform: uppercase;;
+    margin-bottom: 10px;;
+}
+
+.txt p{
+    color: #ebebeb;;
+    font-size: 16px;;
+}
+/*!---- final general ----->*/
+
+@media(max-width:991px){
+    .menu {
+        padding: 30px;;
+    }
+    .menu label {
+        display:initial;;
+    }
+    .menu .navbar{
+        position: absolute;;
+        top: 100%;;
+        left: 0;;
+        right: 0;;
+        background-color: #18293A;;
+        display: none;;
+    }
+    .menu .navbar ul li{
+        width: 100%;;
+    }
+
+    #menu:checked ~ .navbar{
+        display: inherit;;
+    }
+
+    .header{
+        min-height: 0vh;
+    }
+
+    .header-content{
+        padding: 100% 30px;
+    }
+
+    .header-txt h1{
+        font-size: 50px;
+    }
+
+    .header-txt p{
+        padding: 0;
+    }
+
+    .general{
+        padding: 30px 30px 0 30px;
+    }
+
+    .general-content{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .general-1,
+    .general-2,
+    .general-3,
+    .general-4,
+    .general-5,
+    .general-6{
+        height: 350px;
+        padding: 100px 30px;
+        margin-bottom: 10px ;
+    }
+
+    .info-1{
+        padding: 200px 30px;
+        background-size: cover;
+        margin-top: -110px;
+    }
+
+    .info-circle{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .circle-txt{
+        width: 100%;
+        margin-bottom: 25%;
+    }
+
+    .g2{
+        margin-top: -120px;   
+    }
+
+    .info-2{
+        padding: 200px 30px;
+        background-size: cover;
+        margin-top: -180px;
+    }
+
+    .testi{
+        flex-direction: column;
+    }
+
+    .testi-left{
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .testi-right{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .h2{
+        font-size: 40px;
+    }
+
+    
+    .footer{
+        padding: 0;
+        margin-top: -140px;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        padding: 0 50px;
+    }
+
+    .campo{
+        margin: 0 0 10px 0;
+    }
+    .footer-txt{
+        margin-top: 30px;
+    }
+}
+
+
+/*!-------Inicio: Menu Hambuergueza------------------>*/
+.menu{
+    position: fixed;
+    top: 40px;
+    right: 9px;
+    background: #fff000;
+    width: 78px;
+    height: 56px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 6px black;
+    z-index: 1;
+}
+
+.menu-navegacion{
+    position: fixed;
+    top: 98px;
+    right: 0;
+    width: 6vw;
+    height: 84%;
+    background-image: url(../images/fondoRep.png);
+    background-image: linear-gradient(90deg, rgb(255, 30, 143), rgb(19, 227, 255), rgb(251, 255, 20), rgb(255, 15, 15));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: transform .3s ease-in-out;
+    transform: translate(110%);
+    box-shadow: 0 0 6px black;
+    z-index: 1; 
+}
+
+.close {
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-align: center;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 4px;
+    top: 1px;
+    background: rgb(2, 251, 172);
+    color: #000;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 8px black;
+} 
+
+.menu-navegacion .images{
+    border-radius: 50%;
+    width: 30%;
+    height: 1%;
+    text-align: center;
+    color:#fff;
+    background: red;
+}
+
+.menu-navegacion .name {
+    border-radius: 10%;
+    width: 55%;
+    text-align: center;
+    color: #000000;
+    background: #f3f1f1;
+    font-size: 12px;
+}
+
+.spread{
+    transform: translate(0);
+}
+
+.menu-navegacion a {
+    color:#fff;
+    background: hsl(44, 98%, 50%);
+    text-decoration: none;
+}
+
+@media(max-width:700px){
+    .menu-navegacion{
+        color: #000;   /*!---- ojo sin este color ----->*/
+    }
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-icon {
+    display: inline-block;
+    margin-left: 2px;
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid black;
+    border-radius: 40px;
+    text-align: center;
+    color: rgb(137, 168, 65);
+}
+
+.social-media-icon:hover {
+    background: #fff;
+    color: #f00808;
+}
+
+.social-media-icon i{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.main{
+    padding-top: 3rem;
+}
+/*!--------Final: Menu Hambuergueza------------------>*/
+
+
+/*!---- Inicio: Direccionales hacia Abajo----->*/
+.button88 {
+    text-align: center;
+}
+
+.button88 a {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  width: 100px;
+  height: 54px;
+  padding: 8px;
+  background-color:transparent;
+  border: 1.5px solid white;
+  outline: none;
+  font-size: 18px;
+  font-weight: lucida;
+  text-decoration: none;
+  border-radius: 10px 2px 18px 0px;
+  box-shadow: 0 0 12px white;
+  color: #fff;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.header a:hover {
+    color: #020005;
+}
+/*!---- Final: Direccionales hacia Abajo ----->*/
+
+
+/*!---------- Inicio: Button Dame Click ---------->*/
+.button20 {
+    display: inline-block;
+    padding: 4px 2px;
+    background-color: hsl(49, 95%, 45%);
+    background-image: linear-gradient(90deg, #17b466, rgb(251, 255, 20), #17b466);
+    color: #000;
+    text-decoration: none;
+    border-radius: 10px 2px 18px 0px;
+    border-style: double;
+    margin: 10px;
+    height: 35px;
+    font-weight: bold;
+}
+
+.button20:hover {
+    background-color: #03cc57;
+    border: 3px solid #029740;
+    transform: skew(20deg, 0deg) scale(1.1);
+}
+/*!---------- Final: Button Dame Click ---------->*/
+
+
+/*!------ Inicio: Direccionales hacia Arriba ---- ok --->*/
+.lierlis {
+    scroll-behavior: smooth;
+}
+
+.btn-scrolltop {
+    position: fixed;
+    bottom: 20px;
+    border-radius: 100%;
+    right: 10px;
+    padding: 10px 15px;
+    background: #030200;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    cursor: pointer;
+    z-index: 1;
+    transform: translateY(100px);
+    transition: 0.3s;
+}
+
+.btn-scrolltop-on {
+    transform: translateY(0);
+}
+/*!------ Final: Direccionales hacia Arriba ------ ok -->*/
+
+
+
+/*!----- Inicio:  El Mundo Gira --- ok ---->*/
+*
+section {
+    display: flex;
+    transform-style: preserve-3d;
+    align-items: center;
+    justify-content: center;
+}
+
+.earth {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 260px;
+    height: 260px;
+    background: url(../images/gira.jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    border-radius: 50%;
+    box-shadow: inset 0 0 20px rgb(0, 0, 0), 0 0 50px #4069ff;
+    animation: animateEarth 15s linear infinite;
+}
+
+@keyframes animateEarth {
+    0% { 
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -750px 0;
+    }
+}
+
+.circle {
+    transform-style: preserve-3d;
+    animation: animateText 10s linear infinite;
+}
+
+.circle span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #c3b000;
+    color: #000;
+    font-size: 1.2em;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    padding: 7px 10px;
+    transform: rotateY(calc(var(--i) * calc(360deg / 37))) translateZ(200px);
+    border-top: 4px solid #35146f;
+    border-bottom: 4px solid #35146f;
+}
+
+.circle span::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 80%;
+    background: #fff;
+    transform: translateZ(-5px);
+}
+
+@keyframes animateText {
+    0% {
+        transform: perspective(1000px) rotateY(360deg) rotateX(15deg) translateY(-30px);
+    }
+    100% { 
+        transform: perspective(1000px) rotateY(0deg) rotateX(15deg) translateY(-30px);
+}
+}
+/*!------ Final: El Mundo Gira ---- ok --->*/
+
+
+
+/*!-------------- Inicio Parrafo Marquee------------->*/
+.parrafo1 marquee{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+    
+	-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo2 marquee{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+
+	-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo3 marquee{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+
+	-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo1{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+
+	-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo2{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+
+	-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo3{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+
+	-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+/*!-----------  Final: Parrafo Marqueeee -------------->*/
+/*!-------------------------------------------->*/
+
+
+/*!------------>*
+&ensp; &ensp; &ensp;
+/*!------ ------>*
+
+
+/*!------------------------------------------->*/
+/*!----  Inicio Las OPCIONES 24/09/2024 ---->*/
+.opciones {
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.opciones li {
+    float: center;
+    list-style: none;
+    display: flex;
+    float: right;
+}
+
+.opciones li a {
+    color: #000;
+    padding: 2px 2px;
+    text-decoration: none;
+    display: flex;
+    position: center;
+}
+/*!-------->*/
+.opciones li a:hover {
+    color: white;
+    background: #00ff24;
+    border-radius: 10px;
+    display: flex;
+}
+/*!----  Final: Las OPCIONES 24/09/2024 ---->*/
+
+/*!------------------------------------------>*/
+
+
+  /*!---- el codigo QR ---->*/
+.contable3{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    right: 1%;
+    top: 42%; 
+    z-index: 0;
+}
+  /*!---- el codigo QR ---->*/
+
+
+/*!------ inicio Contador de Visitas --->*/
+.home-torre{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    left: 2%;
+    top: 8%;
+}
+/*!------ Final Contador de Visitas --->*/
+
+
+/*!------ Inicio Paypal 24/09/2024 --->*/
+.paypal {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    right: 14%;
+    top: 9%; 
+}
+/*!------ Final: Paypal 24/09/2024 --->*/
+
+.container-cuatro img{
+    margin-left: 23%;
+}
+
+/*!---Inicio:  Resoluciones ----- ok -------->*/
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
+
+/**Movil**/
+    @media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+}
+
+/**Tablet**/
+    @media (min-width: 768px) and (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+/**Escritorio**/
+    @media (min-width: 991px) {
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+/*!------------ Final: Resoluciones ----- ok -------->*/
+
+
+
+/*!-------- Inicio: Autografo  mi correo 24/09/2024--->*/
+.maino {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mar-caga {
+    width: 100%;
+    height: 300px;
+    max-width: 900px;
+    position: relative;
+    border: 3px solid black;
+    border-radius:3px;
+    box-shadow: 0 0 10px rgb(202, 233, 75);
+}
+
+.mard-caga:hover .mar-content{
+    opacity: 1;
+}
+
+.mar-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0;
+}
+
+.mar-author {
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+}
+
+.author {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.date {
+    font-size: 12px;
+}
+
+.mar-author img {
+    float: left;
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+    margin-right: 5px;
+}
+/*!-------- Final: Autografo mi correo 24/09/2024---->*/
+
+
+
+/*!------------------------------------------->*/
+/*!---- Anuncia: con Nosotros 24/09/2024 -->*/
+.contable22{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    top: 48%;
+}
+
+.contable22 .wrapper{
+    width: 600px;
+    height: 250px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+    margin: 3px auto;
+    overflow: hidden;
+}
+
+.contable22 .wrapper-holder{
+    display: grid;
+    grid-template-columns: repeat(10, 100%);
+    height: 100%;
+    width: 100%;
+    animation: slider 90s infinite alternate ease-in-out;
+}
+
+.contable22 .slider1{
+    background-image: url(../img/slider1.jpg);
+    background-position: center;
+    border: none;
+}
+
+.contable22 .slider2{
+    background-image: url(../img/slider2.jpg);
+    background-position: center;
+    border: none;
+}
+
+.contable22 .slider3{
+    background-image: url(../img/slider3.jpg);
+    background-position: center;
+    border: none;
+}
+
+.contable22 .slider4{
+    background-image: url(../img/slider4.jpg);
+    background-position: center;
+    border: none;
+}
+
+.contable22 .slider5{
+    background-image: url(../img/slider5.jpg);
+    background-position: center;
+    border: none;
+}
+
+.contable22 .slider6{
+    background-image: url(../img/slider6.jpg);
+    background-position: center;
+    border: none;
+}
+
+.contable22 .slider7{
+    background-image: url(../img/slider7.jpg);
+    background-position: center;
+    border: none;
+}
+
+.contable22 .slider8{
+    background-image: url(../img/slider8.jpg);
+    background-position: center;
+    border: none;
+}
+
+.contable22 .slider9{
+    background-image: url(../img/slider9.jpg);
+    background-position: center;
+    border: none;
+}
+
+@keyframes slider {
+    0%{transform: translateX(0%);}
+    10%{transform: translateX(-100%);}
+    20%{transform: translateX(-200%);}
+    30%{transform: translateX(-300%);}
+    40%{transform: translateX(-400%);}
+    50%{transform: translateX(-500%);}
+    60%{transform: translateX(-600%);}
+    70%{transform: translateX(-700%);}
+    80%{transform: translateX(-800%);}
+    90%{transform: translateX(-900%);}
+}
+    /*!---- Anuncia: con Nosotros 24/09/2024 -->*/
+/*!-------------------------------------------->*/
+
+
+/* ====== Inicio vitafer 24/09/2024 == */
+
+.main-contable{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.font i{
+    width: 35px;
+    height: 35px;
+    margin: 25px 10px;
+    border: 2px solid #fff000;
+    border-radius: 20%;
+    padding: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+/* ============== HOMME 1 ======= */
+.homme-datails{
+    display: flex;
+    padding: 40px 40px;
+}
+
+.contento h1{
+     color: #fff;
+     font-size: 40px;
+     font-weight: 600;
+}
+ .contento h2{
+    color: yellow;
+    font-size: 30px;
+    font-weight: 600;
+ }
+
+ .contento h4{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+ }
+
+ .contento p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 5px 5px;
+ }
+/* =========HOMME 1 fin ======= */
+
+ .card{
+    display: flex;
+    gap: 2rem;
+    margin-top: 30px;
+    width: 400px;
+    height: 50px;
+ }
+/*---- inicio Los btn= botones compra mis productos ----*/
+/* ==== btn 1 ======= */
+ .btn-01{
+   margin-left: 22px;
+   width: 90px;
+   height: 40px;
+   cursor: pointer;
+   box-shadow: 0px 0px 20px black;
+   background: transparent;
+   font-size: 20px;
+   font-weight: 500;
+   color: #fff;
+   outline: none;
+   transition: .5s;
+ }
+ .btn-01:hover{
+    scale: 1.2;
+ }
+/* ====fin  btn 1 ======= */
+
+/* ==== btn 2 ======= */
+ .btn-02{
+   margin-left: 22px;
+   width: 100px;
+   height: 40px;
+   cursor: pointer;
+   box-shadow: 0px 0px 20px black;
+   background: transparent;
+   font-size: 20px;
+   font-weight: 500;
+   color: #fff;
+   outline: none;
+   transition: .5s;
+ }
+ .btn-02:hover{
+    scale: 1.2;
+ }
+/* ==== fin btn 2 ======= */
+
+ /* ==== btn 3 ======= */
+ .btn-03{
+    margin-left: 22px;
+    width: 130px;
+    height: 60px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px black;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    outline: none;
+    transition: .5s;
+  }
+  .btn-03:hover{
+     scale: 1.2;
+  }
+/* ==== fin btn 3 ======= */
+
+/* ==== btn 4 ======= */
+  .btn-04{
+    margin-left: 22px;
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px black;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    outline: none;
+    transition: .5s;
+  }
+  .btn-04:hover{
+     scale: 1.2;
+  }
+/* ===== fin btn 4 ======= */
+/*--- final Los btn= botones compra mis productos ---*/
+/* ======= MEDIA QUERIE 1 ===== ok ==== */
+
+@media screen and (max-width:1024px){
+    .homme-datails{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .image{
+        display: none;
+    }
+}
+@media screen and (max-width:554px){
+     .navbar  nav{
+        display: none;
+        align-items: center;
+    }
+}
+
+.contento h1 span {
+    color: yellow;
+}
+/* ======   Final vitafer 24/09/2024 ======*/
+
+
+
+/* ======   Inicio slide Triciclo: Responsive Auto Play Movie suggestion Slider in HTML CSS & JavaScript | Swiper Js |Creative JS Coder
+======== */
+
+/*!------- SLIDER WRAPPER ------- ok ------>*/
+.cansancio .swiper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 1%;
+} 
+/*!------------    01 -------------- ok ---->*/
+.swiper {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 440px;
+    height: 250px;
+    position: relative;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 5px solid #fff;
+}
+
+.swiper-slide button{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    outline: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: none;
+}
+
+.swiper-slide button:hover{
+    background: linear-gradient(45deg, #ff4b2b, #ff416c);
+    box-shadow: 0 6px 20px rgba(255, 75, 43, 0.6);
+    transform: translateX(-50%) scale(1.05);
+}
+
+.swiper-slide.swiper-slide1-active button{
+    display: block;
+}
+
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev{
+    color: #fff;
+}
+
+.swiper .swiper-button-next {
+    margin-right: -10px;
+}
+
+.swiper .swiper-button-prev {
+    margin-left: -10px;
+}
+
+.swiper-pagination .swiper-pagination-bullet{
+    width: 17px;
+    height: 17px;
+    background: #fff;
+    opacity: 1;
+}
+
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{
+    border: 3px solid #fff;
+    background: #d13639;
+}
+
+.about_photo{
+    margin: 25px 25px;
+}
+/* =======   Final slide Triciclo: Responsive Auto Play Movie suggestion Slider in HTML CSS & JavaScript | Swiper Js |Creative JS Coder
+======== */
+
+/* ====== inicio equipo de trabajo ======== */
+.about_photo img {
+    border-radius: 50%;
+}
+/* ====== Final equipo de trabajo ======== */
+
+
+
+
